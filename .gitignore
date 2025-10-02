@@ -1,0 +1,7 @@
+# Qt Creator files
+*.user 
+*.pro.user 
+.qtcreator/ 
+__pycache__/ 
+*.pyc 
+build-*/ 

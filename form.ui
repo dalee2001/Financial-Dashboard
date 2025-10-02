@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1053</width>
+    <height>602</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #0D0821;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="monthTabsFrame">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>121</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #160D36;
+border-radius: 15px;        /* rounds the corners */</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="januaryButton">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: White;
+    font-size: 10pt &quot;Roboto&quot;;
+    border-radius: 5px;
+}
+
+QPushButton:hover {
+	color: #FF6100;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>January</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="februaryButton">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: White;
+    font-size: 10pt &quot;Roboto&quot;;
+    border-radius: 5px;
+}
+
+QPushButton:hover {
+	color: #FF6100;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>February</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="marchButton">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: White;
+    font-size: 10pt &quot;Roboto&quot;;
+    border-radius: 5px;
+}
+
+QPushButton:hover {
+	color: #FF6100;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>March</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="aprilButton">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: White;
+    font-size: 10pt &quot;Roboto&quot;;
+    border-radius: 5px;
+}
+
+QPushButton:hover {
+	color: #FF6100;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>April</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="mayButton">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: White;
+    font-size: 10pt &quot;Roboto&quot;;
+    border-radius: 5px;
+}
+
+QPushButton:hover {
+	color: #FF6100;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>May</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="juneButton">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: White;
+    font-size: 10pt &quot;Roboto&quot;;
+    border-radius: 5px;
+}
+
+QPushButton:hover {
+	color: #FF6100;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>June</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="julyButton">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: White;
+    font-size: 10pt &quot;Roboto&quot;;
+    border-radius: 5px;
+}
+
+QPushButton:hover {
+	color: #FF6100;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>July</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="augustButton">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: White;
+    font-size: 10pt &quot;Roboto&quot;;
+    border-radius: 5px;
+}
+
+QPushButton:hover {
+	color: #FF6100;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>August</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="septemberButton">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: White;
+    font-size: 10pt &quot;Roboto&quot;;
+    border-radius: 5px;
+}
+
+QPushButton:hover {
+	color: #FF6100;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>September</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="octoberButton">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: White;
+    font-size: 10pt &quot;Roboto&quot;;
+    border-radius: 5px;
+}
+
+QPushButton:hover {
+	color: #FF6100;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>October</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="novemberButton">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: White;
+    font-size: 10pt &quot;Roboto&quot;;
+    border-radius: 5px;
+}
+
+QPushButton:hover {
+	color: #FF6100;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>November</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="decemberButton">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: White;
+    font-size: 10pt &quot;Roboto&quot;;
+    border-radius: 5px;
+}
+
+QPushButton:hover {
+	color: #FF6100;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>December</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QFrame" name="spendingsFrame">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>10</y>
+      <width>291</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #160D36;
+border-radius: 15px;        /* rounds the corners */</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QLabel" name="monthlySpendingsLabel">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>10</y>
+       <width>134</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: White;
+font-size: 10pt &quot;Roboto&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>My Monthly Spendings</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="pieChartWidget" native="true">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>271</width>
+       <height>211</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="savingsGoalsFrame">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>280</y>
+      <width>291</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #160D36;
+border-radius: 15px;        /* rounds the corners */</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QLabel" name="savedForGoalsLabel">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>10</y>
+       <width>96</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: White;
+font-size: 10pt &quot;Roboto&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Saved for Goals</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="netWorthFrame">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>10</y>
+      <width>261</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #160D36;
+border-radius: 15px;        /* rounds the corners */</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QLabel" name="netWorthLabel">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>10</y>
+       <width>60</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: White;
+font-size: 10pt &quot;Roboto&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Net Worth</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="billsFrame">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>150</y>
+      <width>261</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #160D36;
+border-radius: 15px;        /* rounds the corners */</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QLabel" name="billsLabel">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>10</y>
+       <width>89</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: White;
+font-size: 10pt &quot;Roboto&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Upcoming Billls</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="totalSavingsFrame">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>420</y>
+      <width>261</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #160D36;
+border-radius: 15px;        /* rounds the corners */</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QLabel" name="totalSavingsLabel">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>10</y>
+       <width>76</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: White;
+font-size: 10pt &quot;Roboto&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Total Savings</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="loansFrame">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>420</y>
+      <width>331</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #160D36;
+border-radius: 15px;        /* rounds the corners */</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QLabel" name="loansLabel">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>10</y>
+       <width>34</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: White;
+font-size: 10pt &quot;Roboto&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Loans</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="invetingFrame">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>280</y>
+      <width>331</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #160D36;
+border-radius: 15px;        /* rounds the corners */</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QLabel" name="investingLabel">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>10</y>
+       <width>60</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: White;
+font-size: 10pt &quot;Roboto&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Investings</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="cashFlowFrame">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>10</y>
+      <width>331</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #160D36;
+border-radius: 15px;        /* rounds the corners */</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QLabel" name="cashFlowLabel">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>10</y>
+       <width>149</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: White;
+font-size: 10pt &quot;Roboto&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>My Cash Flow for January</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1053</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
